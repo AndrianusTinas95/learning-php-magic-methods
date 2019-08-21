@@ -6,3 +6,4 @@ PHP Magic Methods in Hindi
 02.PHP Magic Methods in Hindi ( __autoload() ) 2_15
 03.PHP Magic Methods in Hindi ( __construct() ) 3_15
 04.PHP Magic Methods in Hindi ( __destruct() ) 4_15
+05.PHP Magic Methods in Hindi ( __get() ) 5_15

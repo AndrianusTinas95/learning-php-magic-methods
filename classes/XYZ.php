@@ -1,12 +1,30 @@
 <?php
 
 class XYZ{
+    public $data = 'data from xyz';
+    private $arr = [
+        'name'=>'tinas',
+        'age'=>23
+    ];
+
     public function __construct()
     {
-        echo 'ok from '. __CLASS__;
+        // 
+    }
+    /**
+     * this is __get function
+     * untuk mengambil prroperti yang lain yang
+     * tidak ada di class ini
+     */
+    public function __get($name)
+    {
+        // echo "get property $name";
+        if(array_key_exists($name,$this->arr)){
+            return $this->arr[$name];
+        }else{
+            return "trying to access non-existing variable: $name";
+        }
     }
 
-    public function tes(){
-        return 'ok';
-    }
+    
 }
