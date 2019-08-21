@@ -11,4 +11,7 @@ function __autoload($class)
 // echo '<br><br>';
 
 $xyz = new XYZ(); 
+$xyz->name='Tintin';
 echo $xyz->name;
+// $xyz->status = 'Single';
+// echo "<br>".$xyz->status;

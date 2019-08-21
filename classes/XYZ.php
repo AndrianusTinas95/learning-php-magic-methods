@@ -25,6 +25,17 @@ class XYZ{
             return "trying to access non-existing variable: $name";
         }
     }
+    /**
+     * this is __set function
+     */
+    public function __set($name,$value){
+        if(array_key_exists($name,$this->arr)){
+            return $this->arr['name'] =  $value;
+        }else{
+            echo "not set name $name and value $value";
+        }
+
+    }
 
     
 }
