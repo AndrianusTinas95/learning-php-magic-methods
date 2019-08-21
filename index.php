@@ -6,3 +6,6 @@ function __autoload($class)
 }
 
 $cba = new CBA(null,'this is message');
+echo '<br><br>';
+echo $cba->data;
+echo '<br><br>';
