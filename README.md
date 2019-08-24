@@ -9,3 +9,4 @@ PHP Magic Methods in Hindi
 05.PHP Magic Methods in Hindi ( __get() ) 5_15
 06.PHP Magic Methods in Hindi ( __set() ) 6_15
 07.PHP Magic Methods in Hindi ( __call() ) 7_15
+08.PHP Magic Methods in Hindi ( __callStatic() ) 8_15

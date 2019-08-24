@@ -2,7 +2,9 @@
 
 class EFG{
     public function create(){
-
+        echo "this is " . __METHOD__;
+        echo "<br>";
+        echo "kesini pulak kan"; 
     }
 
     /**
@@ -15,6 +17,11 @@ class EFG{
         echo "<pre>";
         print_r($arr);
         echo "</pre>";
+    }
 
+    public static function __callStatic($name, $arguments)
+    {
+        echo "coba panggil $name dengan ";
+        print_r($arguments);
     }
 }
