@@ -12,7 +12,13 @@ class EFG{
         echo "<br>";
         echo "kesini pulak kan"; 
     }
-
+    public function __get($name)
+    {
+        if(property_exists($this,$name)){
+            return $this->$name;
+        }
+        return "You Try Call : $name";
+    }
     /**
      * this is call function
      * to get another function not exsis 
@@ -47,5 +53,14 @@ class EFG{
         }else {
             return FALSE;
         }
+    }
+
+    /**
+     * method __unset()
+     * for unset something
+     */
+    public function __unset($name)
+    {
+        unset($this->arr[$name]);
     }
 }

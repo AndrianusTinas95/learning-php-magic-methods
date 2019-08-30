@@ -7,5 +7,7 @@ function __autoload($class)
 
 $efg = new EFG();
 // $efg->update('ok lo ko','nanas');
-var_dump(isset($efg->age));
-var_dump(isset($efg->status));
+var_dump($efg->arr);
+unset($efg->name);
+echo "<br>";
+var_dump($efg->arr);
