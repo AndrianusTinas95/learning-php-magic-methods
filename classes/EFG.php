@@ -95,4 +95,9 @@ class EFG{
         array_push($this->arr,$c);
         var_dump($this->arr);
     }
+
+    public function __clone()
+    {
+        // $this->subObject = clone $this->subObject;
+    }
 }

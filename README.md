@@ -16,3 +16,4 @@ PHP Magic Methods in Hindi
 12.PHP Magic Methods in Hindi ( __sleep() ) 12_15
 13.PHP Magic Methods in Hindi ( __wakeup() ). 13_15
 14.PHP Magic Methods in Hindi ( __invoke() ) 14_15
+15.PHP Magic Methods in Hindi ( __clone() ) 15_15
