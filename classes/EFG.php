@@ -63,4 +63,13 @@ class EFG{
     {
         unset($this->arr[$name]);
     }
+
+    /**
+     * method __toString()
+     * for convert to string 
+     */
+    public function __toString()
+    {
+        return get_class($this);
+    }
 }

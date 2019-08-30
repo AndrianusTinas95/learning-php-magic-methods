@@ -12,3 +12,4 @@ PHP Magic Methods in Hindi
 08.PHP Magic Methods in Hindi ( __callStatic() ) 8_15
 09.PHP Magic Methods in Hindi ( __isset() ) 9_15
 10.PHP Magic Methods in Hindi ( __unset() ) 10_15
+11.PHP Magic Methods in Hindi ( __toString() ) 11_15
