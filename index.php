@@ -6,5 +6,4 @@ function __autoload($class)
 }
 
 $efg = new EFG();
-
-echo($efg);
+$efg('status',true);

@@ -82,4 +82,17 @@ class EFG{
     {
         // $db->connect();
     }
+
+    /**
+     * this method invoke
+     */
+    public function __invoke($a,$b,$c=[])
+    {
+        echo "you are call $a and $b using invoke.<br>";
+        $c=[$a=>$b];
+        var_dump($this->arr);
+        echo "<br>";
+        array_push($this->arr,$c);
+        var_dump($this->arr);
+    }
 }
