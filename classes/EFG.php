@@ -77,4 +77,9 @@ class EFG{
     {
         // $db->disconnect();
     }
+
+    public function __wakeup()
+    {
+        // $db->connect();
+    }
 }

@@ -14,3 +14,4 @@ PHP Magic Methods in Hindi
 10.PHP Magic Methods in Hindi ( __unset() ) 10_15
 11.PHP Magic Methods in Hindi ( __toString() ) 11_15
 12.PHP Magic Methods in Hindi ( __sleep() ) 12_15
+13.PHP Magic Methods in Hindi ( __wakeup() ). 13_15
