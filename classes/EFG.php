@@ -72,4 +72,9 @@ class EFG{
     {
         return get_class($this);
     }
+
+    public function __sleep()
+    {
+        // $db->disconnect();
+    }
 }
