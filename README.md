@@ -2,6 +2,7 @@ Learn PHP Magic Methods From PHP in Hindi Chanel in playlist
 PHP Magic Methods in Hindi
 
 
+
 01.PHP Magic Methods in Hindi ( Intro) 1_15
 02.PHP Magic Methods in Hindi ( __autoload() ) 2_15
 03.PHP Magic Methods in Hindi ( __construct() ) 3_15
@@ -17,3 +18,6 @@ PHP Magic Methods in Hindi
 13.PHP Magic Methods in Hindi ( __wakeup() ). 13_15
 14.PHP Magic Methods in Hindi ( __invoke() ) 14_15
 15.PHP Magic Methods in Hindi ( __clone() ) 15_15
+
+
+this is link of tutorial https://www.youtube.com/playlist?list=PLHFGzOr0F8DIBLVmienEcSAOYTI2ILjhv
